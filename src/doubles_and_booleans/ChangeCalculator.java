@@ -26,7 +26,7 @@ int dimes = Integer.parseInt(number2);
 double first_number, second_number, answer ;
 first_number = nickels;
 second_number = dimes;
-answer = first_number + second_number;
+answer = first_number/20 + second_number/10;
 		// Tell the user how much money they have
 JOptionPane.showMessageDialog(null, "The total amount of money you have is $" + answer);
 	}
